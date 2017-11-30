@@ -1,0 +1,178 @@
+body {
+  background: #e9eae2;
+  font-family: 'Roboto Condensed', 'Roboto';
+  color: #333333;
+  font-size: 18px; }
+
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s; }
+
+ul {
+  list-style: none; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.right {
+  float: right; }
+
+.m_width {
+  background: #EEE;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1000px;
+  margin: 0 auto; }
+
+/* -------------------- */
+/* ---- GRID START ---- */
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* ---- grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 1%;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s; }
+
+.grid-item {
+  float: left; }
+
+.grid-item--width1 {
+  width: 20%; }
+
+.grid-item--width2 {
+  width: 31%; }
+
+.grid-item--width3 {
+  width: 38%; }
+
+.grid-item--width4 {
+  width: 49%; }
+
+.grid-item--width5 {
+  width: 69%; }
+
+/* ------ GRID END ------ */
+/* ---------------------- */
+.b_chears {
+  background: url("../img/img.png") no-repeat 50% 50%;
+  background-size: 100%; }
+  .b_chears h1 {
+    width: 6em;
+    font-size: 1em;
+    text-transform: uppercase; }
+  .b_chears .b_logo {
+    margin: 6% 0 0 10%; }
+  .b_chears .b_links {
+    margin: 6% auto 0; }
+
+.b_links img {
+  margin: 0 0.55%;
+  width: 2.5%; }
+
+.b_links img:hover {
+  opacity: 0.75;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.b_menu {
+  background: #7acec3;
+  overflow: hidden;
+  font-size: 0.8em;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1em; }
+  .b_menu .b_adress {
+    width: 8em;
+    margin: 18% 0 0 13.3%; }
+  .b_menu .b_number {
+    margin: 10% 0 0 30%; }
+  .b_menu .hamburger {
+    margin: 10% 0 0 30%; }
+
+hr.diagonal {
+  position: relative;
+  top: -30.2%;
+  right: 70%;
+  border: none;
+  border-bottom: 1.5px solid #fff;
+  width: 400%;
+  height: 0px;
+  -webkit-transform: rotate(-47.06deg);
+  -ms-transform: rotate(-47.06deg);
+  transform: rotate(-47.06deg); }
+
+.three, .twelve {
+  background: #ebb240; }
+
+.four {
+  background: url("../img/fondue.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.five {
+  background: url("../img/potter.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.six {
+  background: url("../img/tabano.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.seven {
+  background: url("../img/louis.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.eight {
+  background: url("../img/p22.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.nine {
+  background: url("../img/fiji.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.ten {
+  background: url("../img/sesann.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.eleven {
+  background: url("../img/alessi.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+.thirteen {
+  background: #ff9b6d; }
+
+.fourteen {
+  background: #e9eae2; }
+
+.fifteen {
+  background: #e9eae2; }
+
+.sixteen {
+  background: #575856; }
+
+@media screen and (max-width: 1350px) {
+  body {
+    font-size: 16px; } }
+
+@media screen and (max-width: 1300px) {
+  body {
+    font-size: 14px; } }
+
+@media screen and (max-width: 1170px) {
+  body {
+    font-size: 12px; } }
