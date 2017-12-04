@@ -2,10 +2,10 @@
 $(document).ready(function(){
 
   $('.grid-item').height($('.grid').width()/3);
-  $('.s').height($('.grid-item').height()/2);
-  $('.kube-s').height($('.grid').width()/(1500/465));
-  $('.xs').height($('.grid').width()/5);
-  $('.small').height($('.grid').width()/(1500/390));
+  $('.s').height($('.grid-item').height()/1.999);
+  $('.kube-s').height($('.grid-item').height()*0.93);
+  $('.xs').height($('.grid-item').height()*0.6);
+  $('.small').height($('.grid-item').height()*0.78);
   $('.logo-img').height($('.grid').width()/7.31);
 
   $(window).resize(function(){
@@ -13,19 +13,19 @@ $(document).ready(function(){
   });
 
   $(window).resize(function(){
-    $('.s').height($('.grid').width()/5.999);
+    $('.s').height($('.grid-item').height()/1.999);
   });
 
   $(window).resize(function(){
-    $('.kube-s').height($('.grid').width()/(1500/465));
+    $('.kube-s').height($('.grid-item').height()*0.93);
   });
 
   $(window).resize(function(){
-    $('.xs').height($('.grid').width()/5);
+    $('.xs').height($('.grid-item').height()*0.6);
   });
 
   $(window).resize(function(){
-    $('.small').height($('.grid').width()/(1500/390));
+    $('.small').height($('.grid-item').height()*0.78);
   });
 
   $(window).resize(function(){
