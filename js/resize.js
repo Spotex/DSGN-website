@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
   $('.grid-item').height($('.grid').width()/3);
-  $('.s').height($('.grid-item').height()/1.999);
+  $('.s').height($('.grid-item').height()*0.5);
   $('.kube-s').height($('.grid-item').height()*0.93);
   $('.xs').height($('.grid-item').height()*0.6);
   $('.small').height($('.grid-item').height()*0.78);
@@ -13,7 +13,7 @@ $(document).ready(function(){
   });
 
   $(window).resize(function(){
-    $('.s').height($('.grid-item').height()/1.999);
+    $('.s').height($('.grid-item').height()*0.5);
   });
 
   $(window).resize(function(){
