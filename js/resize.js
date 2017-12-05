@@ -13,7 +13,7 @@ $(document).ready(function(){
   });
 
   $(window).resize(function(){
-    $('.s').height($('.grid-item').height()*0.5);
+    $('.s').height($('.grid-item').height()*0.501);
   });
 
   $(window).resize(function(){
