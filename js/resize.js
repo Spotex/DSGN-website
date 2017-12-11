@@ -7,7 +7,6 @@ $(document).ready(function(){
   $('.xs').height($('.grid-item').height()*0.6);
   $('.small').height($('.grid-item').height()*0.78);
   $('.logo-img').height($('.grid').width()/7.31);
-
   $(window).resize(function(){
     $('.grid-item').height($('.grid').width()/3);
   });
