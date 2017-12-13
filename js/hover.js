@@ -8,8 +8,6 @@ $(function (){
 	    $(t).closest('svg').siblings('span').animate({
 	       	opacity: "1"
 	    }, 800);
-	    $('.b_louis .i_heart path').css('fill','#fff');
-        $('.b_louis .i_heart path').css('stroke','#fff');
 	})
 });
 /*$(function (){ 
