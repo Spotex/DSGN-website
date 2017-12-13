@@ -1,13 +1,15 @@
 $(function (){ 
 	$('body').click(function (event) {
 	    t=event.target||event.srcElement;
-	    $(t).css('fill','red');
-	    $(t).css('stroke','red');
+	    $(t).css('fill','#ff0000');
+	    $(t).css('stroke','#ff0000');
 	    $(t).closest('svg').css('transform','scale(1.1)');
 	    $(t).closest('svg').css('cursor','default');
 	    $(t).closest('svg').siblings('span').animate({
 	       	opacity: "1"
 	    }, 800);
+	    $('.b_louis .i_heart path').css('fill','#fff');
+        $('.b_louis .i_heart path').css('stroke','#fff');
 	})
 });
 /*$(function (){ 
