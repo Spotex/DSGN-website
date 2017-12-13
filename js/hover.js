@@ -1,4 +1,4 @@
-$(function (){ 
+$(function (){
 	$('body').click(function (event) {
 	    t=event.target||event.srcElement;
 	    $(t).css('fill','#ff0000');
@@ -8,7 +8,7 @@ $(function (){
 	    $(t).closest('svg').siblings('span').animate({
 	       	opacity: "1"
 	    }, 800);
-	})
+	});
 });
 /*$(function (){ 
     $('.i_heart path').click(function(){

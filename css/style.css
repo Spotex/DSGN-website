@@ -311,30 +311,82 @@ hr.diagonal {
       width: 60%; }
     .b_louis .b_text .i_heart {
       color: #fe7c7c;
-      margin: 13.5% 0 0 25%;
+      margin: 10.5% 0 0 25%;
       width: 15%; }
       .b_louis .b_text .i_heart path {
         stroke: #fff; }
       .b_louis .b_text .i_heart path:hover {
-        fill: #fff; }
-      .b_louis .b_text .i_heart span {
-        color: #fff; }
+        stroke: #ff0000; }
 
-.eight {
+.b_p22 {
   background: url("../img/p22.png") no-repeat 50% 50%;
   background-size: cover; }
+  .b_p22 .b_text {
+    margin: 15% 0 0 48%; }
+    .b_p22 .b_text .b_text-left {
+      vertical-align: top;
+      width: 40%;
+      display: inline-block; }
+    .b_p22 .b_text .b_text-right {
+      vertical-align: top;
+      width: 55%;
+      display: inline-block; }
+      .b_p22 .b_text .b_text-right .i_view {
+        margin: 1% 0 0;
+        width: 80%; }
+      .b_p22 .b_text .b_text-right .i_heart {
+        margin: 15% 0 0 25%;
+        width: 20%; }
 
-.nine {
+.b_fiji {
   background: url("../img/fiji.png") no-repeat 50% 50%;
   background-size: cover; }
+  .b_fiji .b_text {
+    margin: 10% 0 0 50%; }
+    .b_fiji .b_text .i_view {
+      margin: 8% 0 0 0;
+      width: 80%; }
+    .b_fiji .b_text .i_heart {
+      margin: 5% 0 0 25%;
+      width: 20%; }
 
-.ten {
+.b_sesann {
   background: url("../img/sesann.png") no-repeat 50% 50%;
   background-size: cover; }
+  .b_sesann .b_text {
+    margin: 25% 0 0 20%; }
+    .b_sesann .b_text .b_text-left {
+      vertical-align: top;
+      width: 35%;
+      display: inline-block; }
+    .b_sesann .b_text .b_text-right {
+      width: 40%;
+      margin: 5.5% 0 0 4%;
+      vertical-align: top;
+      display: inline-block; }
+      .b_sesann .b_text .b_text-right .i_view {
+        display: inline-block;
+        vertical-align: top;
+        width: 70%; }
+      .b_sesann .b_text .b_text-right .i_heart {
+        float: right;
+        width: 20%; }
 
-.eleven {
+.b_alessi {
   background: url("../img/alessi.png") no-repeat 50% 50%;
   background-size: cover; }
+  .b_alessi .b_text {
+    margin: 25% 0 0 50%; }
+  .b_alessi .i_view {
+    text-transform: uppercase;
+    margin: 10% 0 0 38%;
+    width: 60%;
+    font-size: 1.1em; }
+  .b_alessi .i_heart {
+    margin: 6% 0 0 60%;
+    width: 20%; }
+    .b_alessi .i_heart span {
+      font-size: 0.65em; }
 
 .twelve {
   background: #ebb240; }
