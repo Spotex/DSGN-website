@@ -68,6 +68,9 @@ ul {
 .grid-item--width5 {
   width: 69%; }
 
+.grid-item--width10 {
+  width: 100%; }
+
 /* ------ GRID END ------ */
 /* ---------------------- */
 .b_chears {
@@ -396,70 +399,166 @@ hr.diagonal {
   text-transform: uppercase;
   line-height: 1.05em;
   color: #fff; }
-  .b_timeline .list {
+  .b_timeline .b_list {
     margin: 9% 0 0 12%; }
-    .b_timeline .list h4 {
+    .b_timeline .b_list h4 {
       margin: 0 0 2% 7.4%;
       color: #333; }
-    .b_timeline .list a {
+    .b_timeline .b_list a {
       position: relative;
       -webkit-transition: 0.4s;
       -o-transition: 0.4s;
       transition: 0.4s; }
-      .b_timeline .list a span {
+      .b_timeline .b_list a span {
         margin: 0 0 0 50%; }
-      .b_timeline .list a img {
+      .b_timeline .b_list a img {
         visibility: hidden;
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-    .b_timeline .list a:hover {
+    .b_timeline .b_list a:hover {
       color: #000; }
-    .b_timeline .list a:hover img {
+    .b_timeline .b_list a:hover img {
       visibility: visible; }
-    .b_timeline .list .i_list1, .b_timeline .list .i_list2,
-    .b_timeline .list .i_list3, .b_timeline .list .i_list4,
-    .b_timeline .list .i_list5 {
+    .b_timeline .b_list .i_list1, .b_timeline .b_list .i_list2,
+    .b_timeline .b_list .i_list3, .b_timeline .b_list .i_list4,
+    .b_timeline .b_list .i_list5 {
       max-width: 15%; }
-    .b_timeline .list .i_list1 .i_list11,
-    .b_timeline .list .i_list2 .i_list21,
-    .b_timeline .list .i_list3 .i_list31,
-    .b_timeline .list .i_list4 .i_list41,
-    .b_timeline .list .i_list5 .i_list51 {
+    .b_timeline .b_list .i_list1 .i_list11,
+    .b_timeline .b_list .i_list2 .i_list21,
+    .b_timeline .b_list .i_list3 .i_list31,
+    .b_timeline .b_list .i_list4 .i_list41,
+    .b_timeline .b_list .i_list5 .i_list51 {
       display: none;
       position: absolute; }
-    .b_timeline .list .i_list1 .i_list11 {
+    .b_timeline .b_list .i_list1 .i_list11 {
       margin: 2.0em 0 0 21%; }
-    .b_timeline .list .i_list2 .i_list21 {
+    .b_timeline .b_list .i_list2 .i_list21 {
       margin: 1.65em 0 0 21%; }
-    .b_timeline .list .i_list3 .i_list31 {
+    .b_timeline .b_list .i_list3 .i_list31 {
       margin: 1.3em 0 0 21%; }
-    .b_timeline .list .i_list4 .i_list41 {
+    .b_timeline .b_list .i_list4 .i_list41 {
       margin: 0.95em 0 0 21%; }
-    .b_timeline .list .i_list5 .i_list51 {
+    .b_timeline .b_list .i_list5 .i_list51 {
       margin: 0.61em 0 0 21%; }
-    .b_timeline .list .i_list1:hover .i_list11,
-    .b_timeline .list .i_list2:hover .i_list21,
-    .b_timeline .list .i_list3:hover .i_list31,
-    .b_timeline .list .i_list4:hover .i_list41,
-    .b_timeline .list .i_list5:hover .i_list51 {
+    .b_timeline .b_list .i_list1:hover .i_list11,
+    .b_timeline .b_list .i_list2:hover .i_list21,
+    .b_timeline .b_list .i_list3:hover .i_list31,
+    .b_timeline .b_list .i_list4:hover .i_list41,
+    .b_timeline .b_list .i_list5:hover .i_list51 {
       display: block; }
-    .b_timeline .list h1 {
+    .b_timeline .b_list h1 {
       margin: 1.11em 0 0 25.54%;
       font-size: 3em; }
   .b_timeline .diagonal {
     right: 122%; }
 
-.thirteen {
-  background: #ff9b6d; }
+.b_studio {
+  background-color: #ff9b6d; }
+  .b_studio h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 65% 0 0 45%;
+    font-size: 3em; }
 
-.fourteen {
-  background: #e9eae2; }
+.b_studio-info {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.05em; }
+  .b_studio-info .b_studio-text {
+    width: 72%;
+    margin: 8% 0 0 12%; }
+    .b_studio-info .b_studio-text .b_text-left {
+      vertical-align: top;
+      display: inline-block;
+      width: 50%; }
+      .b_studio-info .b_studio-text .b_text-left p {
+        margin: 5% 0 0; }
+      .b_studio-info .b_studio-text .b_text-left p:first-child {
+        margin: 0; }
+    .b_studio-info .b_studio-text .b_text-right {
+      font-size: 0.7em;
+      text-transform: uppercase;
+      width: 47%; }
+      .b_studio-info .b_studio-text .b_text-right img {
+        width: 100%; }
+      .b_studio-info .b_studio-text .b_text-right h4 {
+        margin: 12% 1.5% 0 1.5%;
+        font-size: 1em;
+        border-bottom: 1px solid #bfc0b9; }
+      .b_studio-info .b_studio-text .b_text-right ul {
+        display: inline-block;
+        margin: 7% 0 0 0;
+        font-weight: 900; }
+        .b_studio-info .b_studio-text .b_text-right ul li {
+          line-height: 1.3em; }
 
-.fifteen {
-  background: #e9eae2; }
+.b_staff-wrapper {
+  font-size: 0.8em; }
+
+.b_staff {
+  margin: 9% 0 0 9.5%; }
+  .b_staff .staff-text, .b_staff .staff-photo,
+  .b_staff .cv {
+    display: inline-block;
+    vertical-align: top; }
+  .b_staff .staff-text {
+    margin: 0 2.2% 0 0;
+    width: 20.5%;
+    line-height: 1em; }
+    .b_staff .staff-text h4 {
+      font-size: 1.2em;
+      text-transform: uppercase; }
+    .b_staff .staff-text p {
+      margin: 8% 0 0 0; }
+  .b_staff .staff-photo {
+    margin: 0 0 0 1.5%;
+    text-transform: uppercase;
+    width: 20%; }
+    .b_staff .staff-photo img {
+      width: 100%; }
+    .b_staff .staff-photo h4, .b_staff .staff-photo p {
+      line-height: 1em; }
+    .b_staff .staff-photo h4 {
+      margin: 8% 0 0 0; }
+    .b_staff .staff-photo .cv {
+      position: relative;
+      color: #fd5000;
+      margin: 8% 0 0 0;
+      font-weight: 900;
+      width: 30%; }
+      .b_staff .staff-photo .cv img {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        vertical-align: top;
+        width: 25%; }
+      .b_staff .staff-photo .cv a {
+        margin: 0 10% 0 0;
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s; }
+      .b_staff .staff-photo .cv a:hover {
+        margin: 0%; }
+    .b_staff .staff-photo .links {
+      margin: 7.5% 5% 0 0;
+      padding: 0 0 0 20%;
+      width: 45%; }
+      .b_staff .staff-photo .links a {
+        margin: 0 0 0 8%; }
+      .b_staff .staff-photo .links img {
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+        width: 14%; }
+      .b_staff .staff-photo .links img:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3); }
 
 .sixteen {
   background: #575856; }
