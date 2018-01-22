@@ -63,11 +63,13 @@ ul
   width:  69% 
 .grid-item--width10
   width: 100%
+.grid-item--width50
+  width: 50%
  
 /* ------ GRID END ------ */
 /* ---------------------- */
 .b_chears
-  background: url("../img/img.png") no-repeat 50% 50%
+  background: url("../img/chear_top.png") no-repeat 50% 50%
   background-size: 100%
   h1
     width: 6em
@@ -509,9 +511,99 @@ hr.diagonal
         width: 14%
       img:hover
         transform: scale(1.3)
-.sixteen
-  background: #575856
 
+.b_news
+  background-color: #d4edbf
+  h1
+    color: #fff
+    text-transform: uppercase
+    margin: 65% 0 0 45%
+    font-size: 3em
+
+.b_news-info
+  background: #e5e9df
+  .b_news-text
+    display: inline-block
+    vertical-align: top
+    margin: 7.5% 0 0 9%
+    width: 36%
+    font-size: 0.78em
+    color: #6a6969
+    transition: 0.6s
+    .test
+      display: block
+      height: 100%
+    h2
+      text-transform: uppercase
+    h2
+      font-size: 1.7em
+      line-height: 1em
+      color: #333
+      height: 2em
+    img
+      margin: 4% 0 0 0
+      width: 100%
+    a 
+      vertical-align: bottom
+      text-transform: uppercase
+      color: #fd5000
+      font-weight: 900
+      margin: 4% 0 0 0
+      transition: 0.6s
+    a:hover
+      opacity: 0.75
+    p   
+      word-spacing: 0.8em
+      margin: 8% 0 0 0
+      min-height: 6em
+  .b_news-text:nth-child(2n)
+    margin-left: 3%;
+  .b_news-text:hover
+    transform: scale(1.02)
+    opacity: 0.8
+
+.b_footer
+    font-size: 0.8em
+    font-weight: 900
+    color: #393d3c
+    .b_footer-logo
+      margin: 12% 0 0 17%
+      display: inline-block
+      vertical-align: top
+      width: 21%
+      h1
+        margin: 2% 0 0 0
+        width: 70%
+        font-size: 1.3em
+        text-transform: uppercase
+      .b_links
+        margin: 15% 0 0 0
+        text-align: center
+        img
+          width: 15%     
+          margin: 0 2.5%
+      .logo-img
+        width: 100%
+    .b_footer-text
+      margin: 12% 0 0 15%
+      text-transform: uppercase
+      line-height: 1.1em
+      display: inline-block
+      vertical-align: top
+      .i_adress
+        width: 70%
+      .i_number
+        margin: 10% 0 0 0
+    .i_copyright
+      text-align: center
+      margin: 5% auto 0 
+
+
+
+
+@media screen and (max-width: 1400px)
+  body
+    font-size: 17px
 @media screen and (max-width: 1350px)
   body
     font-size: 16px
@@ -520,6 +612,9 @@ hr.diagonal
 @media screen and (max-width: 1300px)
   body
     font-size: 14px
+@media screen and (max-width: 1200px)
+  body
+    font-size: 13px
 @media screen and (max-width: 1170px)
   body
     font-size: 12px

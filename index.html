@@ -11,6 +11,11 @@
 	<script src="js/grid.js"></script>
 	<script src="js/masonry.pkgd.js"></script>
 	<script src="js/hover.js"></script>
+	<script src="js/link.js"></script>
+	<script src="js/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5Opw5CGX6ahOeg6mR5JVId3VZ9Rwtf8E&callback=initMap"
+	  async defer>
+	</script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400" rel="stylesheet">
 </head>
 <body>
@@ -382,8 +387,54 @@
 		  </div>
 	  </div>
 
-	  <div class="grid-item grid-item--width2 fifteen"></div>
-	  <div class="grid-item grid-item--width5 sixteen"></div>
+	  <div class="grid-item grid-item--width2 b_news">
+	  	  <hr class="diagonal">
+	  	  <h1>News</h1>
+	  </div>
+
+	  <div class="grid-item grid-item--width5 b_news-info">
+		  <div class="b_news-text">
+			  <h2>Mauris et dui sed justo placerat tristique.</h2>
+			  <span>11.07.2014</span>
+			  <img src="img/mauris.png" alt="">
+			  <p>Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum lorem scelerisque eu id massa. Mauris ornare amassa vel mauris tempus, vitae raf tempus urna tincidunt.</p>
+			 <a href="#" class="right">read more</a>	
+		  </div>
+		  <div class="b_news-text clearfix">
+			  <h2>Proin vehicula nibh massa</h2>
+			  <span>11.06.2014</span>
+			  <img src="img/proin.png" alt="">
+			  <p>Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque.</p>
+			  <a href="#" class="right">read more</a>	
+		  </div>
+	  </div>
+
+	  <div class="grid-item grid-item--width50" id="map">
+	  </div>
+	  
+	  <div class="grid-item grid-item--width50 b_footer">
+	  	<div class="b_footer-text">
+			<div class="i_adress">
+					90802 California Long beach <br>PO Box 68789 <br>300 East Ocean  Boulev
+			</div>
+			<div class="i_number">
+					+64 9 345 6758 <br>info@dsgn-studio.com
+			</div>
+		</div>
+		<div class="b_footer-logo">
+			<a href="#"><img src="img/logo.png" class="logo-img" alt=""></a>
+			<h1>Associates Studio Design</h1>
+			<div class="b_links">
+				<a href="#"><img src="img/facebook.svg" alt=""></a>
+				<a href="#"><img src="img/twitter.svg" alt=""></a>
+				<a href="#"><img src="img/linkedin.svg" alt=""></a>
+				<a href="#"><img src="img/google.svg" alt=""></a>
+			</div>
+		</div>		
+		<div class="i_copyright">
+				© 2018  DSGN. All rights reserved - Created by Seva P.
+		</div>
+	  </div>
 	</div>
 </body>
 </html>
